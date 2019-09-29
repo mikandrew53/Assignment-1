@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    background: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ol li {
+    list-style-type: none;
+}
+
+/* Utility */
+.text-primary{
+    color: #f0BB6F;
+}
+
+/* Nav */
+.container {
+    display: flex;
+    justify-content: center;
+    background: #333;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    color: #fff;
+}
+.navbar li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+}
+
+.navbar li a{
+    display: block;
+    padding: 20px;
+    color: #fff;
+}
+.navbar li:hover,
+.current{
+    background: #444;
+}
+.navbar li a:hover,
+#current-a{
+    color: #f7c08a;
+}
+
+#logo {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #fff;
+    padding-left: 10px;
+}
+
+/* showcase */
+#showcase {
+    background: url('../photos/image1.jpg') no-repeat center center/cover;
+    height: 90vh;
+}
+#showcase .showcase-content {
+    text-align: center;
+    color: #fff;
+    padding-top: 170px;
+}
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+.description {
+    width: 500px;
+    margin: auto;
+    color: #f6f6f6;
+}
+
+
+/* Attractions */
+
+.attractions {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.attraction {
+    width: 300px;
+    height: 500px;
+    margin-right: 1rem;
+}
+.attractions .attraction .museum {
+    background: url('../photos/image2.jpg') no-repeat center center/cover;
+    border-radius: 50%;
+}
+.attractions .attraction .asakusa {
+    background: url('../photos/image3.jpg') no-repeat center center/cover;
+    border-radius: 50%;
+}
+.attractions .attraction .disneysea {
+    background: url('../photos/image4.jpg') no-repeat center center/cover;
+    border-radius: 50%;
+}
+.img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.attractions .attraction p {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    height: 150px;
+    text-align: center;
+    background: #f0BB6F;
+}
+.attractions .attraction h3 {
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+/* History */
+
+.history h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.history #history_img {
+    float: left;
+    margin-right: 1rem;
+}
+
+li h3, 
+li p{
+    margin-bottom: 0.5rem;
+}
+li p {
+    margin-right: 5rem;
+}
+
+
+
+
+
